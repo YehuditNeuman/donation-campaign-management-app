@@ -1,0 +1,21 @@
+h2 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+h2:first-of-type {
+    
+    color: #ff4747;
+}
+
+h2:nth-of-type(2) {
+    color: #ff4747;
+}
+
+h2:nth-of-type(3) {
+    color: #ff4747;
+}
+
+h2:nth-of-type(4) {
+    color: #ff4747;
+}

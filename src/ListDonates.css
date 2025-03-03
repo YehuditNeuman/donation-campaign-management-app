@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* אם מדובר בגובה מלא של הדף */
+    margin: 0; /* ביטול רווחים של דף */
+}
+
+
+select, input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    width: 300px; /* שינוי רוחב */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ff4747;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff2b2b;
+}
