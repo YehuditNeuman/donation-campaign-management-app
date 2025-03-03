@@ -1,8 +1,26 @@
-# React + Vite
+Donation Campaign Management Application
+This is a React-based web application designed for managing donation campaigns for charitable organizations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Dynamic and modular user interface built with React.
+Page navigation using React Router.
+Material UI for a better user experience.
+LocalStorage for saving user data.
+Real-time dollar exchange rate through an external API.
+Technologies Used
+React for building the user interface.
+React Router for page navigation.
+Material UI for enhancing the design.
+LocalStorage for storing data in the browser.
+API for fetching real-time dollar exchange rates.
+Version Control
+The project uses Git for version control, with code stored and shared on GitHub.
 
-Currently, two official plugins are available:
+Getting Started
+To run this project locally, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone the repository:
+git clone https://github.com/yourusername/donation-campaign-management-app.git
+Navigate to the project directory: cd donation-campaign-management-app
+Install dependencies: npm install
+Start the development server: npm start The application should now be running at http://localhost:3000.
